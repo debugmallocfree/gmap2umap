@@ -2,4 +2,4 @@
 
 https://debugmallocfree.github.io/gmap2umap/
 
-<img width="1013" height="861" alt="image" src="https://github.com/user-attachments/assets/11f66228-47e4-473d-bbc3-98fbe5353635" />
+<img width="800" src="https://github.com/user-attachments/assets/11f66228-47e4-473d-bbc3-98fbe5353635" />
