@@ -42,5 +42,10 @@ document.execCommand('copy'); alert("복사되었습니다."); }
 function clearCsv() { if(confirm("초기화?")) 
 document.getElementById('csvResult').value = "name,lat,lon,description"; }
 </script>
+<p>
+<b><font color=blue>[umap에 import하는 방법]</font></b><br>
+1) [Import] 아이콘 클릭<br>
+2) CSV내용 붙여넣기 -> 'CSV'포멧선택 -> 추가할 레이어 선택 (기존 또는 신규 선택) -> [Import Data]버튼<br>
+2) Marker가 잘 추가된것 확인 후 -> [Save] 버튼<br>
 <img src="umap_import.png">
 </body></html>
