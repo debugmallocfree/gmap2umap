@@ -1,4 +1,7 @@
-<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><title>POI 변환기</title><style>
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8"><title>POI 변환기</title><style>
 body { font-family: 'Malgun Gothic', sans-serif; max-width: 800px; margin: 20px auto; 
 padding: 20px; background-color: #f5f5f5; }
 .container { background: white; padding: 25px; border-radius: 8px; 
@@ -10,7 +13,11 @@ border-radius: 4px; cursor: pointer; font-weight: bold; }
 textarea { width: 100%; height: 300px; padding: 12px; font-family: monospace; 
 border: 1px solid #ccc; box-sizing: border-box; }
 .note { font-size: 0.85em; color: #d93025; margin-bottom: 10px; }
-</style></head><body><div class="container"><h2>📍 구글 지도 POI to CSV</h2>
+</style>
+  </head>
+  <body>
+    <br>▼ 여러 구글맵 URL들을 연속해서 입력하면, 한번에 많은 장소를 UMAP에 입력 할 수 있습니다.<br>
+    <div class="container"><h2>📍 구글 지도 POI to CSV</h2>
 <p class="note">※ 주소창의 전체 URL과 메모를 입력해 주세요.</p>
 <div class="input-group">
 <input type="text" id="urlInput" placeholder="구글 지도 URL을 붙여넣으세요...">
@@ -42,11 +49,11 @@ document.execCommand('copy'); alert("복사되었습니다."); }
 function clearCsv() { if(confirm("초기화?")) 
 document.getElementById('csvResult').value = "name,lat,lon,description"; }
 </script>
-▲ 여러 구글맵 URL들을 연속해서 입력하면, 한번에 많은 장소를 UMAP에 입력 할 수 있습니다. 
   <p>
 <b><b><font color=blue>[umap에 import하는 방법]</font></b><br>
 1) [Import] 아이콘 클릭<br>
 2) CSV내용 붙여넣기 -> 'CSV'포멧선택 -> 추가할 레이어 선택 (기존 또는 신규 선택) -> [Import Data]버튼<br>
 2) Marker가 잘 추가된것 확인 후 -> [Save] 버튼<br>
 <img src="umap_import.png" width=640 border=1>
-</body></html>
+</body>
+</html>
